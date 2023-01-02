@@ -23,7 +23,7 @@ There will be a couple of parts to this project:
 
 ### What I Hope To Accomplish:
 
-
+The data is the data, I will not be manipulating the values input, I am doing this out in the open and citing my sources because transparency is key with matters like this. This data can be used by first time home buyers, flippers and wealthy folks looking to park their money in super expensive real estate. It's really not up to me or anyone to decide what to do with this kind of information. 
 
 <!--
 citations go here
