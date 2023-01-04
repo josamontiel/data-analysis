@@ -53,6 +53,16 @@ The first 5 rows of each dataset
 |3|Andover|Developing Suburbs|374995|455000|21\.30%|
 |4|Arlington|Streetcar Suburbs|695000|812500|16\.90%|
 
+##### 'Share of owners being Black or Latino'
+
+|index|Municipality|Community Type|Percent of Home Loans to Black and Latino Buyers|
+|---|---|---|---|
+|0|Boston|Metro Core Communities|10\.9%|
+|1|Cambridge|Metro Core Communities|4\.6%|
+|2|Lowell|Regional Urban Centers|27\.1%|
+|3|Brockton|Regional Urban Centers|65\.9%|
+|4|Quincy|Regional Urban Centers|5\.1%|
+
 The last 5 rows of each dataset
 
 ##### 'Single Family Median Home Data'
@@ -73,6 +83,16 @@ The last 5 rows of each dataset
 |144|Winthrop|Streetcar Suburbs|465000|505000|8\.60%|
 |145|Woburn|Regional Urban Centers|480000|525000|9\.40%|
 |146|Wrentham|Developing Suburbs|413000|748372|81\.20%|
+
+##### 'Share of Owners Being Black or Latino'
+
+|index|Municipality|Community Type|Percent of Home Loans to Black and Latino Buyers|
+|---|---|---|---|
+|142|Essex|Developing Suburbs|0\.0%|
+|143|Dunstable|Developing Suburbs|2\.0%|
+|144|Nahant|Maturing Suburbs|7\.7%|
+|145|Ashby|Rural Towns|12\.0%|
+|146|Plympton|Developing Suburbs|6\.1%|
 
 ##### Single Family Median Price:
 ```
