@@ -43,6 +43,16 @@ The first 5 rows of each dataset
 |3|Brockton|Regional Urban Centers|377500|430000|13\.9%|
 |4|Quincy|Regional Urban Centers|605000|640000|5\.8%|
 
+##### 'Condo Median Price Data' 
+
+|index|Town|Community Type|Condo\.2021|Condo\.2022|Condo\.PercChange|
+|---|---|---|---|---|---|
+|0|Abington|Developing Suburbs|349000|400000|14\.60%|
+|1|Acton|Maturing Suburbs|370000|376000|1\.60%|
+|2|Amesbury|Regional Urban Centers|340000|360500|6\.00%|
+|3|Andover|Developing Suburbs|374995|455000|21\.30%|
+|4|Arlington|Streetcar Suburbs|695000|812500|16\.90%|
+
 The last 5 rows of each dataset
 
 ##### 'Single Family Median Home Data'
@@ -53,6 +63,16 @@ The last 5 rows of each dataset
 |144|Nahant|Maturing Suburbs|805000|1030000|28\.0%|
 |145|Ashby|Rural Towns|350000|370250|5\.8%|
 |146|Plympton|Developing Suburbs|487500|525000|7\.7%|
+
+##### 'Condo Median Price Data' 
+
+|index|Town|Community Type|Condo\.2021|Condo\.2022|Condo\.PercChange|
+|---|---|---|---|---|---|
+|142|Wilmington|Maturing Suburbs|477000|635000|-34|
+|143|Winchester|Maturing Suburbs|650000|765000|17\.70%|
+|144|Winthrop|Streetcar Suburbs|465000|505000|8\.60%|
+|145|Woburn|Regional Urban Centers|480000|525000|9\.40%|
+|146|Wrentham|Developing Suburbs|413000|748372|81\.20%|
 
 ##### Single Family Median Price:
 ```
