@@ -31,7 +31,30 @@ The data being collected for this is pretty vague, there are some key points mis
 
 But below I will be listing the relevant data associated with these data sets.
 
-###### Single Family Median Price:
+The first 5 rows of each dataset
+
+##### 'Single Family Median Home Data'
+
+|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|---|---|
+|0|Boston|Metro Core Communities|3462500|4400000|27\.1%|
+|1|Cambridge|Metro Core Communities|1537500|1775000|15\.4%|
+|2|Lowell|Regional Urban Centers|415000|439000|5\.8%|
+|3|Brockton|Regional Urban Centers|377500|430000|13\.9%|
+|4|Quincy|Regional Urban Centers|605000|640000|5\.8%|
+
+The last 5 rows of each dataset
+
+##### 'Single Family Median Home Data'
+|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|---|---|
+|142|Essex|Developing Suburbs|625750|670000|7\.1%|
+|143|Dunstable|Developing Suburbs|617500|690000|11\.7%|
+|144|Nahant|Maturing Suburbs|805000|1030000|28\.0%|
+|145|Ashby|Rural Towns|350000|370250|5\.8%|
+|146|Plympton|Developing Suburbs|487500|525000|7\.7%|
+
+##### Single Family Median Price:
 ```
 - Municipality 	
 - Communities Type 	
@@ -39,7 +62,7 @@ But below I will be listing the relevant data associated with these data sets.
 - Median Sale Price, Jan - June 2022 	
 - % Change
 ```
-###### Condo Median price:
+##### Condo Median price:
 ```
 - Town
 - Community Type
@@ -47,7 +70,7 @@ But below I will be listing the relevant data associated with these data sets.
 - Condo.2022
 - Condo.PercChange
 ```
-###### Share of Black and Latino Owners:
+##### Share of Black and Latino Owners:
 ```
 - Municipality
 - Community Type
