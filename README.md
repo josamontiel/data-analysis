@@ -3,8 +3,7 @@
 <!--
 Table of contents goes here
 -->
-
-## Overview: 
+## Overview
 
 This project attempts to paint a picture using data pulled from [The Boston Foundation](https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts#single) on the housing crisis as it pertains to:
 
@@ -12,32 +11,31 @@ This project attempts to paint a picture using data pulled from [The Boston Foun
 * Median Condo Prices (2021-2022)
 * Share of those owners being Black or Latino
 
-### What is going to be highlighted: 
+### What is going to be highlighted
 
-There will be a couple of parts to this project:
+When I first began this project, I wanted this notebook to cover everything it possible could with regards to the data. But upon further review, I only want/need it to do TWO things:
 
-1. Obtaining the data
-2. Exploring the data for any inconsistencies/missing values.
-3. Cleaning the data (If Needed)
-4. Presenting the data in a way that showcases the true nature of the Real Estate/Job market
+1. Show the top 5 and bottom 5 Cities/Towns that experienced the greatest change
+2. Show which community type experienced the most growth.
 
-## What I Hope To Accomplish:
+## What I Hope To Accomplish
 
-The data is the data, I will not be manipulating the values input, I am doing this out in the open and citing my sources because transparency is key with matters like this. This data can be used by first time home buyers, flippers and wealthy folks looking to park their money in super expensive real estate. It's really not up to me or anyone to decide what to do with this kind of information. 
+The overall theme of this project is to present and visualize the data in such a way that the end user will be able to clearly see the two main points which are the focus of this notebook.
 
-## Some reference:
+## Some reference
 
-The data being collected for this is pretty vague, there are some key points missing like (but not limited to): size of home in sq ft/meters, amount of bedrooms/bathrooms, year the home was built etc. 
+The data being collected for this is pretty vague, there are some key points missing like (but not limited to): size of home in sq ft/meters, amount of bedrooms/bathrooms, year the home was built etc.
 
 But below I will be listing the relevant data associated with these data sets.
 
-### General overview of each dataset:
+### General overview of each dataset
 
-###### 'Single Family Median Home Data'
+'Single Family Median Home Data'
+
 |index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
 |---|---|---|---|
 |count|147\.0|147\.0|147\.0|
-|mean|721655\.5782312925|805912\.2448979592|10\.787755102040816|
+|mean|721655\.5782312925|80\,5912\.25|10\.787755102040816|
 |std|380077\.9777155671|474227\.2235190462|9\.580144263214294|
 |min|347500\.0|370250\.0|-21\.2|
 |25%|491250\.0|547000\.0|5\.65|
@@ -47,7 +45,7 @@ But below I will be listing the relevant data associated with these data sets.
 
 #### The first 5 rows of each dataset
 
-###### 'Single Family Median Home Data'
+'Single Family Median Home Data'
 
 |index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
 |---|---|---|---|---|---|
@@ -57,7 +55,7 @@ But below I will be listing the relevant data associated with these data sets.
 |3|Brockton|Regional Urban Centers|377500|430000|13\.9%|
 |4|Quincy|Regional Urban Centers|605000|640000|5\.8%|
 
-###### 'Condo Median Price Data' 
+'Condo Median Price Data'
 
 |index|Town|Community Type|Condo\.2021|Condo\.2022|Condo\.PercChange|
 |---|---|---|---|---|---|
@@ -67,7 +65,7 @@ But below I will be listing the relevant data associated with these data sets.
 |3|Andover|Developing Suburbs|374995|455000|21\.30%|
 |4|Arlington|Streetcar Suburbs|695000|812500|16\.90%|
 
-###### 'Share of owners being Black or Latino'
+'Share of owners being Black or Latino'
 
 |index|Municipality|Community Type|Percent of Home Loans to Black and Latino Buyers|
 |---|---|---|---|
@@ -79,7 +77,8 @@ But below I will be listing the relevant data associated with these data sets.
 
 ##### The last 5 rows of each dataset
 
-###### 'Single Family Median Home Data'
+'Single Family Median Home Data'
+
 |index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
 |---|---|---|---|---|---|
 |142|Essex|Developing Suburbs|625750|670000|7\.1%|
@@ -88,7 +87,7 @@ But below I will be listing the relevant data associated with these data sets.
 |145|Ashby|Rural Towns|350000|370250|5\.8%|
 |146|Plympton|Developing Suburbs|487500|525000|7\.7%|
 
-###### 'Condo Median Price Data' 
+'Condo Median Price Data'
 
 |index|Town|Community Type|Condo\.2021|Condo\.2022|Condo\.PercChange|
 |---|---|---|---|---|---|
@@ -108,15 +107,16 @@ But below I will be listing the relevant data associated with these data sets.
 |145|Ashby|Rural Towns|12\.0%|
 |146|Plympton|Developing Suburbs|6\.1%|
 
-##### Single Family Median Price:
+ Single Family Median Price:
 ```
-- Municipality 	
-- Communities Type 	
-- Median Sale Price, Jan - June 2021 	
-- Median Sale Price, Jan - June 2022 	
+- Municipality 
+- Communities Type 
+- Median Sale Price, Jan - June 2021 
+- Median Sale Price, Jan - June 2022 
 - % Change
 ```
-##### Condo Median price:
+
+Condo Median price:
 ```
 - Town
 - Community Type
@@ -124,7 +124,8 @@ But below I will be listing the relevant data associated with these data sets.
 - Condo.2022
 - Condo.PercChange
 ```
-##### Share of Black and Latino Owners:
+
+Share of Black and Latino Owners:
 ```
 - Municipality
 - Community Type
