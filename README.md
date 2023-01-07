@@ -21,19 +21,33 @@ There will be a couple of parts to this project:
 3. Cleaning the data (If Needed)
 4. Presenting the data in a way that showcases the true nature of the Real Estate/Job market
 
-### What I Hope To Accomplish:
+## What I Hope To Accomplish:
 
 The data is the data, I will not be manipulating the values input, I am doing this out in the open and citing my sources because transparency is key with matters like this. This data can be used by first time home buyers, flippers and wealthy folks looking to park their money in super expensive real estate. It's really not up to me or anyone to decide what to do with this kind of information. 
 
-### Some reference:
+## Some reference:
 
 The data being collected for this is pretty vague, there are some key points missing like (but not limited to): size of home in sq ft/meters, amount of bedrooms/bathrooms, year the home was built etc. 
 
 But below I will be listing the relevant data associated with these data sets.
 
-The first 5 rows of each dataset
+### General overview of each dataset:
 
-##### 'Single Family Median Home Data'
+###### 'Single Family Median Home Data'
+|index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|
+|count|147\.0|147\.0|147\.0|
+|mean|721655\.5782312925|805912\.2448979592|10\.787755102040816|
+|std|380077\.9777155671|474227\.2235190462|9\.580144263214294|
+|min|347500\.0|370250\.0|-21\.2|
+|25%|491250\.0|547000\.0|5\.65|
+|50%|615000\.0|660000\.0|11\.2|
+|75%|801250\.0|865000\.0|15\.6|
+|max|3462500\.0|4400000\.0|44\.4|
+
+#### The first 5 rows of each dataset
+
+###### 'Single Family Median Home Data'
 
 |index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
 |---|---|---|---|---|---|
@@ -43,7 +57,7 @@ The first 5 rows of each dataset
 |3|Brockton|Regional Urban Centers|377500|430000|13\.9%|
 |4|Quincy|Regional Urban Centers|605000|640000|5\.8%|
 
-##### 'Condo Median Price Data' 
+###### 'Condo Median Price Data' 
 
 |index|Town|Community Type|Condo\.2021|Condo\.2022|Condo\.PercChange|
 |---|---|---|---|---|---|
@@ -53,7 +67,7 @@ The first 5 rows of each dataset
 |3|Andover|Developing Suburbs|374995|455000|21\.30%|
 |4|Arlington|Streetcar Suburbs|695000|812500|16\.90%|
 
-##### 'Share of owners being Black or Latino'
+###### 'Share of owners being Black or Latino'
 
 |index|Municipality|Community Type|Percent of Home Loans to Black and Latino Buyers|
 |---|---|---|---|
@@ -63,9 +77,9 @@ The first 5 rows of each dataset
 |3|Brockton|Regional Urban Centers|65\.9%|
 |4|Quincy|Regional Urban Centers|5\.1%|
 
-The last 5 rows of each dataset
+##### The last 5 rows of each dataset
 
-##### 'Single Family Median Home Data'
+###### 'Single Family Median Home Data'
 |index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
 |---|---|---|---|---|---|
 |142|Essex|Developing Suburbs|625750|670000|7\.1%|
@@ -74,7 +88,7 @@ The last 5 rows of each dataset
 |145|Ashby|Rural Towns|350000|370250|5\.8%|
 |146|Plympton|Developing Suburbs|487500|525000|7\.7%|
 
-##### 'Condo Median Price Data' 
+###### 'Condo Median Price Data' 
 
 |index|Town|Community Type|Condo\.2021|Condo\.2022|Condo\.PercChange|
 |---|---|---|---|---|---|
@@ -84,7 +98,7 @@ The last 5 rows of each dataset
 |145|Woburn|Regional Urban Centers|480000|525000|9\.40%|
 |146|Wrentham|Developing Suburbs|413000|748372|81\.20%|
 
-##### 'Share of Owners Being Black or Latino'
+###### 'Share of Owners Being Black or Latino'
 
 |index|Municipality|Community Type|Percent of Home Loans to Black and Latino Buyers|
 |---|---|---|---|
