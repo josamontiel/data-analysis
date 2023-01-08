@@ -107,7 +107,7 @@ But below I will be listing the relevant data associated with these data sets.
 |145|Ashby|Rural Towns|12\.0%|
 |146|Plympton|Developing Suburbs|6\.1%|
 
- Single Family Median Price:
+ <!-- Single Family Median Price:
 ```
 - Municipality 
 - Communities Type 
@@ -130,7 +130,24 @@ Share of Black and Latino Owners:
 - Municipality
 - Community Type
 - Percent of Home Loans to Black and Latino Buyers
-```
+``` -->
+
+## What we know so far
+
+As of today (8 January 2023) we uncovered from the data that the communities that experienced the overall greatest growth for single family homes have been, unsurprisingly from the Metro Core Communities. They experienced and mean growth in sales price of 20.76%. The best performing market out of all of these communities has been Somerville (*gang gang*), who experienced a 44% bump in median sales for single family homes.
+
+**The second best performing community type was the Street Car Suburbs.**
+
+This included Cities/Towns like:
+
+* Brookline
+* Arlington
+* Medford
+* Winthrop
+
+The top performing City was Brookline coming in at a strong 37.4% increase in sale price. Whereas Watertown, a City just 5 miles, only experienced a 1.6% increase in sales prices.
+
+It is when we get to the Developing Suburbs that things get interesting as we see a lot of Towns experiencing a large negative drop in their sales for single family homes. Rockport, in particular, experienced a -21.2% drop in their single family home prices between 2021 and 2022. This may be attractive to buyers looking to move out to the burbs for some quiet and maybe larger property allocation compared to a city near Boston. 
 <!--
 citations go here
 - https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts#single
