@@ -147,7 +147,77 @@ This included Cities/Towns like:
 
 The top performing City was Brookline coming in at a strong 37.4% increase in sale price. Whereas Watertown, a City just 5 miles, only experienced a 1.6% increase in sales prices.
 
-It is when we get to the Developing Suburbs that things get interesting as we see a lot of Towns experiencing a large negative drop in their sales for single family homes. Rockport, in particular, experienced a -21.2% drop in their single family home prices between 2021 and 2022. This may be attractive to buyers looking to move out to the burbs for some quiet and maybe larger property allocation compared to a city near Boston. 
+It is when we get to the Developing Suburbs that things get interesting as we see a lot of Towns experiencing a large negative drop in their sales for single family homes. Rockport, in particular, experienced a -21.2% drop in their single family home prices between 2021 and 2022. This may be attractive to buyers looking to move out to the burbs for some quiet and maybe larger property allocation compared to a city near Boston.
+
+#### Overview of data by Community type for Single Family Homes
+
+*Metro Core Communites*
+
+|index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|
+|count|7\.0|7\.0|7\.0|
+|mean|1,135,660\.71|1,399,028\.57|20\.75|
+|std|1,091,096\.59|1,397,197\.62|12\.92|
+|min|476,500|577,450|8\.6|
+|25%|531,000|605,375|11\.25|
+|50%|580,000|630,000|15\.4|
+|75%|1,184,312\.50|1,487,500|27\.2|
+|max|3,462,500|4,400,000|44\.4|
+
+*Regional Urban Centers*
+
+|index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|
+|count|17\.0|17\.0|17\.0|
+|mean|520102\.9411764706|567195\.2352941176|9\.46470588235294|
+|std|102287\.4724590398|103337\.71569926043|4\.586521173022996|
+|min|360000\.0|413000\.0|-0\.8|
+|25%|445000\.0|500000\.0|5\.8|
+|50%|529000\.0|590000\.0|10\.3|
+|75%|600000\.0|620000\.0|13\.3|
+|max|750000\.0|815000\.0|15\.7|
+
+*StreetCar Suburbs*
+
+|index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|
+|count|9\.0|9\.0|9\.0|
+|mean|1039227\.7777777778|1198755\.5555555555|12\.988888888888889|
+|std|439110\.73995570233|611463\.4476219962|10\.77548658349641|
+|min|629000\.0|694900\.0|1\.6|
+|25%|728050\.0|802500\.0|7\.4|
+|50%|790000\.0|850000\.0|9\.7|
+|75%|1441500\.0|1575900\.0|14\.3|
+|max|1850000\.0|2542000\.0|37\.4|
+
+*Developing Suburbs*
+
+|index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|
+|count|65\.0|65\.0|65\.0|
+|mean|636039\.2307692308|687538\.4615384615|8\.86923076923077|
+|std|225127\.9869478949|242892\.57990436052|10\.234316096424736|
+|min|347500\.0|400000\.0|-21\.2|
+|25%|461000\.0|517500\.0|3\.6|
+|50%|583450\.0|622500\.0|9\.5|
+|75%|747500\.0|764500\.0|14\.5|
+|max|1425000\.0|1631500\.0|33\.5|
+
+*Rural Town*
+
+|index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|
+|count|1\.0|1\.0|1\.0|
+|mean|350000\.0|370250\.0|5\.8|
+|std|NaN|NaN|NaN|
+|min|350000\.0|370250\.0|5\.8|
+|25%|350000\.0|370250\.0|5\.8|
+|50%|350000\.0|370250\.0|5\.8|
+|75%|350000\.0|370250\.0|5\.8|
+|max|350000\.0|370250\.0|5\.8|
+
+> There is no table for Maturing Suburbs as there is no data for them
+
 <!--
 citations go here
 - https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts#single
