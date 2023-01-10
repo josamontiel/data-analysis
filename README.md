@@ -216,6 +216,24 @@ It is when we get to the Developing Suburbs that things get interesting as we se
 |75%|350000\.0|370250\.0|5\.8|
 |max|350000\.0|370250\.0|5\.8|
 
+###### Top 5 and Bottom 5 by municipality
+
+|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|---|---|
+|8|Somerville|Metro Core Communities|831125|1200000|44\.4|
+|13|Brookline|Streetcar Suburbs|1850000|2542000|37\.4|
+|141|Sherborn|Developing Suburbs|955000|1275000|33\.5|
+|125|Lincoln|Maturing Suburbs|1375000|1794000|30\.5|
+|144|Nahant|Maturing Suburbs|805000|1030000|28\.0|
+
+|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|---|---|
+|140|West Newbury|Developing Suburbs|810000|740000|-8\.6|
+|136|Marion|Developing Suburbs|607500|550000|-9\.5|
+|92|Ipswich|Developing Suburbs|747500|657500|-12\.0|
+|126|Groveland|Maturing Suburbs|615000|521500|-15\.2|
+|124|Rockport|Developing Suburbs|837500|660000|-21\.2|
+
 > There is no table for Maturing Suburbs as there is no data for them
 
 Below is a table of the top performing municipalities by community type:
