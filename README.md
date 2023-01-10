@@ -218,6 +218,16 @@ It is when we get to the Developing Suburbs that things get interesting as we se
 
 > There is no table for Maturing Suburbs as there is no data for them
 
+Below is a table of the top performing municipalities by community type:
+
+|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
+|---|---|---|---|---|---|
+|0|Somerville|Metro Core Communities|831125|1200000|44\.4|
+|1|Brookline|Streetcar Suburbs|1850000|2542000|37\.4|
+|2|Amesbury|Regional Urban Centers|481000|556319|15\.7|
+|3|Sherborn|Developing Suburbs|955000|1275000|33\.5|
+|4|Ashby|Rural Towns|350000|370250|5\.8|
+
 <!--
 citations go here
 - https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts#single
