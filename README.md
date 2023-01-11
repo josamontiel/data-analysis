@@ -246,6 +246,7 @@ Below is a table of the top performing municipalities by community type:
 |3|Sherborn|Developing Suburbs|955000|1275000|33\.5|
 |4|Ashby|Rural Towns|350000|370250|5\.8|
 
+![Sheet 1](https://user-images.githubusercontent.com/91287801/211865276-34263adc-f6b3-4c1f-9f2b-871a4813b18d.png)
 <!--
 citations go here
 - https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts#single
