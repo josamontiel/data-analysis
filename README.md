@@ -5,132 +5,31 @@ Table of contents goes here
 -->
 ## Overview
 
-This project attempts to paint a picture using data pulled from [The Boston Foundation](https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts#single) on the housing crisis as it pertains to:
+As we all know, the cost of living has gone up, substantially. Every sector has been affected on some level. Most notable (not because of value, more to do with the fact that we all need a roof over our heads) is the real estate sector.
+
+As someone who is from the Boston, MA area, and someone who is in Data Science, I feel compelled to decicate some time and energy to giving some insight into the housing market in the area I grew up in. I am personally someone who was a victim of the rising price of real estate in the Boston, area. I was not the first and I wasn't the last person to feel the effects of the rising cost of living and the real estate boom.
+
+If you would like to see where I pulled some of the data from, check it out [here](https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts)
+
+The datasets I will be working with are listed below:
 
 * Single Family Home Prices (Jan-June 2021, Jan-June 2022)
 * Median Condo Prices (2021-2022)
-* Share of those owners being Black or Latino
+* Share new mortgages going to those being Black or Latino
+* Eviction Rates
 
 ### What is going to be highlighted
 
-When I first began this project, I wanted this notebook to cover everything it possible could with regards to the data. But upon further review, I only want/need it to do TWO things:
+This particular project is only going to highlight one thing, the community types who experienced the greatest changes (both positive and negative %). I chose this due to the fact that while, Boston may have higher prices than say Somerville, Somerville experienced a greater increase percentage than Boston. The pct increase, in my opinion, has a far greater impact on individuals than the sell/buy prices.
 
-1. Show the top 5 and bottom 5 Cities/Towns that experienced the greatest change
-2. Show which community type experienced the most growth.
+## The community types for this survey were as follows
 
-## What I Hope To Accomplish
-
-The overall theme of this project is to present and visualize the data in such a way that the end user will be able to clearly see the two main points which are the focus of this notebook.
-
-## Some reference
-
-The data being collected for this is pretty vague, there are some key points missing like (but not limited to): size of home in sq ft/meters, amount of bedrooms/bathrooms, year the home was built etc.
-
-But below I will be listing the relevant data associated with these data sets.
-
-### General overview of each dataset
-
-'Single Family Median Home Data'
-
-|index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
-|---|---|---|---|
-|count|147\.0|147\.0|147\.0|
-|mean|721655\.5782312925|80\,5912\.25|10\.787755102040816|
-|std|380077\.9777155671|474227\.2235190462|9\.580144263214294|
-|min|347500\.0|370250\.0|-21\.2|
-|25%|491250\.0|547000\.0|5\.65|
-|50%|615000\.0|660000\.0|11\.2|
-|75%|801250\.0|865000\.0|15\.6|
-|max|3462500\.0|4400000\.0|44\.4|
-
-#### The first 5 rows of each dataset
-
-'Single Family Median Home Data'
-
-|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
-|---|---|---|---|---|---|
-|0|Boston|Metro Core Communities|3462500|4400000|27\.1%|
-|1|Cambridge|Metro Core Communities|1537500|1775000|15\.4%|
-|2|Lowell|Regional Urban Centers|415000|439000|5\.8%|
-|3|Brockton|Regional Urban Centers|377500|430000|13\.9%|
-|4|Quincy|Regional Urban Centers|605000|640000|5\.8%|
-
-'Condo Median Price Data'
-
-|index|Town|Community Type|Condo\.2021|Condo\.2022|Condo\.PercChange|
-|---|---|---|---|---|---|
-|0|Abington|Developing Suburbs|349000|400000|14\.60%|
-|1|Acton|Maturing Suburbs|370000|376000|1\.60%|
-|2|Amesbury|Regional Urban Centers|340000|360500|6\.00%|
-|3|Andover|Developing Suburbs|374995|455000|21\.30%|
-|4|Arlington|Streetcar Suburbs|695000|812500|16\.90%|
-
-'Share of owners being Black or Latino'
-
-|index|Municipality|Community Type|Percent of Home Loans to Black and Latino Buyers|
-|---|---|---|---|
-|0|Boston|Metro Core Communities|10\.9%|
-|1|Cambridge|Metro Core Communities|4\.6%|
-|2|Lowell|Regional Urban Centers|27\.1%|
-|3|Brockton|Regional Urban Centers|65\.9%|
-|4|Quincy|Regional Urban Centers|5\.1%|
-
-##### The last 5 rows of each dataset
-
-'Single Family Median Home Data'
-
-|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
-|---|---|---|---|---|---|
-|142|Essex|Developing Suburbs|625750|670000|7\.1%|
-|143|Dunstable|Developing Suburbs|617500|690000|11\.7%|
-|144|Nahant|Maturing Suburbs|805000|1030000|28\.0%|
-|145|Ashby|Rural Towns|350000|370250|5\.8%|
-|146|Plympton|Developing Suburbs|487500|525000|7\.7%|
-
-'Condo Median Price Data'
-
-|index|Town|Community Type|Condo\.2021|Condo\.2022|Condo\.PercChange|
-|---|---|---|---|---|---|
-|142|Wilmington|Maturing Suburbs|477000|635000|-34|
-|143|Winchester|Maturing Suburbs|650000|765000|17\.70%|
-|144|Winthrop|Streetcar Suburbs|465000|505000|8\.60%|
-|145|Woburn|Regional Urban Centers|480000|525000|9\.40%|
-|146|Wrentham|Developing Suburbs|413000|748372|81\.20%|
-
-###### 'Share of Owners Being Black or Latino'
-
-|index|Municipality|Community Type|Percent of Home Loans to Black and Latino Buyers|
-|---|---|---|---|
-|142|Essex|Developing Suburbs|0\.0%|
-|143|Dunstable|Developing Suburbs|2\.0%|
-|144|Nahant|Maturing Suburbs|7\.7%|
-|145|Ashby|Rural Towns|12\.0%|
-|146|Plympton|Developing Suburbs|6\.1%|
-
- <!-- Single Family Median Price:
-```
-- Municipality 
-- Communities Type 
-- Median Sale Price, Jan - June 2021 
-- Median Sale Price, Jan - June 2022 
-- % Change
-```
-
-Condo Median price:
-```
-- Town
-- Community Type
-- Condo.2021
-- Condo.2022
-- Condo.PercChange
-```
-
-Share of Black and Latino Owners:
-```
-- Municipality
-- Community Type
-- Percent of Home Loans to Black and Latino Buyers
-``` -->
+- Metro Core Communities (Inner Cities)
+- Regional Urban Centers
+- Street Car Suburbs
+- Developing Suburbs
+- Maturing Suburbs
+- Rural Towns
 
 ## What we know so far
 
@@ -155,7 +54,7 @@ It is when we get to the Developing Suburbs that things get interesting as we se
 
 |index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
 |---|---|---|---|
-|count|7\.0|7\.0|7\.0|
+|count|7|7|7|
 |mean|1,135,660\.71|1,399,028\.57|20\.75|
 |std|1,091,096\.59|1,397,197\.62|12\.92|
 |min|476,500|577,450|8\.6|
@@ -168,27 +67,27 @@ It is when we get to the Developing Suburbs that things get interesting as we se
 
 |index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
 |---|---|---|---|
-|count|17\.0|17\.0|17\.0|
-|mean|520102\.9411764706|567195\.2352941176|9\.46470588235294|
-|std|102287\.4724590398|103337\.71569926043|4\.586521173022996|
-|min|360000\.0|413000\.0|-0\.8|
-|25%|445000\.0|500000\.0|5\.8|
-|50%|529000\.0|590000\.0|10\.3|
-|75%|600000\.0|620000\.0|13\.3|
-|max|750000\.0|815000\.0|15\.7|
+|count|17|17|17|
+|mean|520102\.95|567195\.24|9\.47|
+|std|102287\.48|103337\.72|4\.59|
+|min|360000|413000|-0\.8|
+|25%|445000|500000|5\.8|
+|50%|529000|590000|10\.3|
+|75%|600000|620000|13\.3|
+|max|750000|815000|15\.7|
 
 *StreetCar Suburbs*
 
 |index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
 |---|---|---|---|
-|count|9\.0|9\.0|9\.0|
-|mean|1039227\.7777777778|1198755\.5555555555|12\.988888888888889|
-|std|439110\.73995570233|611463\.4476219962|10\.77548658349641|
-|min|629000\.0|694900\.0|1\.6|
-|25%|728050\.0|802500\.0|7\.4|
-|50%|790000\.0|850000\.0|9\.7|
-|75%|1441500\.0|1575900\.0|14\.3|
-|max|1850000\.0|2542000\.0|37\.4|
+|count|9|9|9|
+|mean|1039227\.78|1198755\.56|12\.99|
+|std|439110\.74|611463\.45|10\.78|
+|min|629000|694900|1\.6|
+|25%|728050|802500|7\.4|
+|50%|790000|850000|9\.7|
+|75%|1441500|1575900|14\.3|
+|max|1850000|2542000|37\.4|
 
 *Developing Suburbs*
 
@@ -197,17 +96,17 @@ It is when we get to the Developing Suburbs that things get interesting as we se
 |count|65\.0|65\.0|65\.0|
 |mean|636039\.2307692308|687538\.4615384615|8\.86923076923077|
 |std|225127\.9869478949|242892\.57990436052|10\.234316096424736|
-|min|347500\.0|400000\.0|-21\.2|
-|25%|461000\.0|517500\.0|3\.6|
-|50%|583450\.0|622500\.0|9\.5|
-|75%|747500\.0|764500\.0|14\.5|
-|max|1425000\.0|1631500\.0|33\.5|
+|min|347500|400000|-21\.2|
+|25%|461000|517500|3\.6|
+|50%|583450|622500|9\.5|
+|75%|747500|764500|14\.5|
+|max|1425000|1631500|33\.5|
 
 *Rural Town*
 
 |index|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
 |---|---|---|---|
-|count|1\.0|1\.0|1\.0|
+|count|1|1|1|
 |mean|350000\.0|370250\.0|5\.8|
 |std|NaN|NaN|NaN|
 |min|350000\.0|370250\.0|5\.8|
@@ -216,37 +115,29 @@ It is when we get to the Developing Suburbs that things get interesting as we se
 |75%|350000\.0|370250\.0|5\.8|
 |max|350000\.0|370250\.0|5\.8|
 
-###### Top 5 and Bottom 5 by municipality
-
-|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
-|---|---|---|---|---|---|
-|8|Somerville|Metro Core Communities|831125|1200000|44\.4|
-|13|Brookline|Streetcar Suburbs|1850000|2542000|37\.4|
-|141|Sherborn|Developing Suburbs|955000|1275000|33\.5|
-|125|Lincoln|Maturing Suburbs|1375000|1794000|30\.5|
-|144|Nahant|Maturing Suburbs|805000|1030000|28\.0|
-
-|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
-|---|---|---|---|---|---|
-|140|West Newbury|Developing Suburbs|810000|740000|-8\.6|
-|136|Marion|Developing Suburbs|607500|550000|-9\.5|
-|92|Ipswich|Developing Suburbs|747500|657500|-12\.0|
-|126|Groveland|Maturing Suburbs|615000|521500|-15\.2|
-|124|Rockport|Developing Suburbs|837500|660000|-21\.2|
-
 > There is no table for Maturing Suburbs as there is no data for them
 
-Below is a table of the top performing municipalities by community type:
+# What we know so far
 
-|index|Municipality|Communities Type|Median Sale Price, Jan - June 2021|Median Sale Price, Jan - June 2022|% Change|
-|---|---|---|---|---|---|
-|0|Somerville|Metro Core Communities|831125|1200000|44\.4|
-|1|Brookline|Streetcar Suburbs|1850000|2542000|37\.4|
-|2|Amesbury|Regional Urban Centers|481000|556319|15\.7|
-|3|Sherborn|Developing Suburbs|955000|1275000|33\.5|
-|4|Ashby|Rural Towns|350000|370250|5\.8|
+### Single Family Homes
 
-![Sheet 1](https://user-images.githubusercontent.com/91287801/211865276-34263adc-f6b3-4c1f-9f2b-871a4813b18d.png)
+Currently, from the data we can see the communities that experienced the overall greatest growth for single family homes have been, unsurprisingly from the Metro Core Communities. They experienced and mean growth in sales price of 20.76%. The best performing market out of all of these communities has been Somerville (*gang gang*), who experienced a 44% bump in median sales for single family homes between Jan-Jun 2021-2022.
+
+**The second best performing community type was the Street Car Suburbs.**
+
+This included Cities/Towns like:
+
+* Brookline
+* Arlington
+* Medford
+* Winthrop
+
+The top performing City was Brookline coming in at a strong 37.4% increase in sale price. Whereas Watertown, a City just 5 miles away, only experienced a 1.6% increase in sales prices. Interesting to see, to say the least.
+
+It is when we get to the Developing Suburbs that things get interesting as we see a lot of Towns experiencing a large negative drop in their sales for single family homes. Rockport, in particular, experienced a -21.2% drop in their single family home prices between 2021 and 2022. This may be attractive to buyers looking to move out to the burbs for some quiet and maybe larger property allocation compared to a city near Boston.
+
+<!-- ![Sheet 1](https://user-images.githubusercontent.com/91287801/211865276-34263adc-f6b3-4c1f-9f2b-871a4813b18d.png) -->
+
 ![Sheet 1(1)](https://user-images.githubusercontent.com/91287801/212280192-28ed6c94-0a9b-493a-ad0c-b66428962b10.png)
 <!--
 citations go here
