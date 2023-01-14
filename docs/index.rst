@@ -10,227 +10,48 @@ The State of housing in the Boston area
 Overview
 --------
 
-This project attempts to paint a picture using data pulled from `The
-Boston
-Foundation <https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts#single>`__
-on the housing crisis as it pertains to:
+As we all know, the cost of living has gone up, substantially. Every
+sector has been affected on some level. Most notable (not because of
+value, more to do with the fact that we all need a roof over our heads)
+is the real estate sector.
+
+As someone who is from the Boston, MA area, and someone who is in Data
+Science, I feel compelled to decicate some time and energy to giving
+some insight into the housing market in the area I grew up in. I am
+personally someone who was a victim of the rising price of real estate
+in the Boston, area. I was not the first and I wasn’t the last person to
+feel the effects of the rising cost of living and the real estate boom.
+
+If you would like to see where I pulled some of the data from, check it
+out
+`here <https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts>`__
+
+The datasets I will be working with are listed below:
 
 -  Single Family Home Prices (Jan-June 2021, Jan-June 2022)
 -  Median Condo Prices (2021-2022)
--  Share of those owners being Black or Latino
+-  Share new mortgages going to those being Black or Latino
+-  Eviction Rates
 
 What is going to be highlighted
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When I first began this project, I wanted this notebook to cover
-everything it possible could with regards to the data. But upon further
-review, I only want/need it to do TWO things:
+This particular project is only going to highlight one thing, the
+community types who experienced the greatest changes (both positive and
+negative %). I chose this due to the fact that while, Boston may have
+higher prices than say Somerville, Somerville experienced a greater
+increase percentage than Boston. The pct increase, in my opinion, has a
+far greater impact on individuals than the sell/buy prices.
 
-1. Show the top 5 and bottom 5 Cities/Towns that experienced the
-   greatest change
-2. Show which community type experienced the most growth.
+The community types for this survey were as follows
+---------------------------------------------------
 
-What I Hope To Accomplish
--------------------------
-
-The overall theme of this project is to present and visualize the data
-in such a way that the end user will be able to clearly see the two main
-points which are the focus of this notebook.
-
-Some reference
---------------
-
-The data being collected for this is pretty vague, there are some key
-points missing like (but not limited to): size of home in sq ft/meters,
-amount of bedrooms/bathrooms, year the home was built etc.
-
-But below I will be listing the relevant data associated with these data
-sets.
-
-General overview of each dataset
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-‘Single Family Median Home Data’
-
-+-----------------+-----------------+-----------------+-----------------+
-| index           | Median Sale     | Median Sale     | % Change        |
-|                 | Price, Jan -    | Price, Jan -    |                 |
-|                 | June 2021       | June 2022       |                 |
-+=================+=================+=================+=================+
-| count           | 147.0           | 147.0           | 147.0           |
-+-----------------+-----------------+-----------------+-----------------+
-| mean            | 72              | 80,5912.25      | 10.             |
-|                 | 1655.5782312925 |                 | 787755102040816 |
-+-----------------+-----------------+-----------------+-----------------+
-| std             | 38              | 47              | 9.              |
-|                 | 0077.9777155671 | 4227.2235190462 | 580144263214294 |
-+-----------------+-----------------+-----------------+-----------------+
-| min             | 347500.0        | 370250.0        | -21.2           |
-+-----------------+-----------------+-----------------+-----------------+
-| 25%             | 491250.0        | 547000.0        | 5.65            |
-+-----------------+-----------------+-----------------+-----------------+
-| 50%             | 615000.0        | 660000.0        | 11.2            |
-+-----------------+-----------------+-----------------+-----------------+
-| 75%             | 801250.0        | 865000.0        | 15.6            |
-+-----------------+-----------------+-----------------+-----------------+
-| max             | 3462500.0       | 4400000.0       | 44.4            |
-+-----------------+-----------------+-----------------+-----------------+
-
-The first 5 rows of each dataset
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-‘Single Family Median Home Data’
-
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| index     | Mun       | Co        | Median    | Median    | % Change  |
-|           | icipality | mmunities | Sale      | Sale      |           |
-|           |           | Type      | Price,    | Price,    |           |
-|           |           |           | Jan -     | Jan -     |           |
-|           |           |           | June 2021 | June 2022 |           |
-+===========+===========+===========+===========+===========+===========+
-| 0         | Boston    | Metro     | 3462500   | 4400000   | 27.1%     |
-|           |           | Core      |           |           |           |
-|           |           | Co        |           |           |           |
-|           |           | mmunities |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| 1         | Cambridge | Metro     | 1537500   | 1775000   | 15.4%     |
-|           |           | Core      |           |           |           |
-|           |           | Co        |           |           |           |
-|           |           | mmunities |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| 2         | Lowell    | Regional  | 415000    | 439000    | 5.8%      |
-|           |           | Urban     |           |           |           |
-|           |           | Centers   |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| 3         | Brockton  | Regional  | 377500    | 430000    | 13.9%     |
-|           |           | Urban     |           |           |           |
-|           |           | Centers   |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| 4         | Quincy    | Regional  | 605000    | 640000    | 5.8%      |
-|           |           | Urban     |           |           |           |
-|           |           | Centers   |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-
-‘Condo Median Price Data’
-
-+-------+-----------+------------------------+------------+------------+------------------+
-| index | Town      | Community Type         | Condo.2021 | Condo.2022 | Condo.PercChange |
-+=======+===========+========================+============+============+==================+
-| 0     | Abington  | Developing Suburbs     | 349000     | 400000     | 14.60%           |
-+-------+-----------+------------------------+------------+------------+------------------+
-| 1     | Acton     | Maturing Suburbs       | 370000     | 376000     | 1.60%            |
-+-------+-----------+------------------------+------------+------------+------------------+
-| 2     | Amesbury  | Regional Urban Centers | 340000     | 360500     | 6.00%            |
-+-------+-----------+------------------------+------------+------------+------------------+
-| 3     | Andover   | Developing Suburbs     | 374995     | 455000     | 21.30%           |
-+-------+-----------+------------------------+------------+------------+------------------+
-| 4     | Arlington | Streetcar Suburbs      | 695000     | 812500     | 16.90%           |
-+-------+-----------+------------------------+------------+------------+------------------+
-
-‘Share of owners being Black or Latino’
-
-+-----------------+-----------------+-----------------+-----------------+
-| index           | Municipality    | Community Type  | Percent of Home |
-|                 |                 |                 | Loans to Black  |
-|                 |                 |                 | and Latino      |
-|                 |                 |                 | Buyers          |
-+=================+=================+=================+=================+
-| 0               | Boston          | Metro Core      | 10.9%           |
-|                 |                 | Communities     |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| 1               | Cambridge       | Metro Core      | 4.6%            |
-|                 |                 | Communities     |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| 2               | Lowell          | Regional Urban  | 27.1%           |
-|                 |                 | Centers         |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| 3               | Brockton        | Regional Urban  | 65.9%           |
-|                 |                 | Centers         |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| 4               | Quincy          | Regional Urban  | 5.1%            |
-|                 |                 | Centers         |                 |
-+-----------------+-----------------+-----------------+-----------------+
-
-The last 5 rows of each dataset
-'''''''''''''''''''''''''''''''
-
-‘Single Family Median Home Data’
-
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| index     | Mun       | Co        | Median    | Median    | % Change  |
-|           | icipality | mmunities | Sale      | Sale      |           |
-|           |           | Type      | Price,    | Price,    |           |
-|           |           |           | Jan -     | Jan -     |           |
-|           |           |           | June 2021 | June 2022 |           |
-+===========+===========+===========+===========+===========+===========+
-| 142       | Essex     | D         | 625750    | 670000    | 7.1%      |
-|           |           | eveloping |           |           |           |
-|           |           | Suburbs   |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| 143       | Dunstable | D         | 617500    | 690000    | 11.7%     |
-|           |           | eveloping |           |           |           |
-|           |           | Suburbs   |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| 144       | Nahant    | Maturing  | 805000    | 1030000   | 28.0%     |
-|           |           | Suburbs   |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| 145       | Ashby     | Rural     | 350000    | 370250    | 5.8%      |
-|           |           | Towns     |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| 146       | Plympton  | D         | 487500    | 525000    | 7.7%      |
-|           |           | eveloping |           |           |           |
-|           |           | Suburbs   |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-
-‘Condo Median Price Data’
-
-+-------+----------+----------+----------+----------+----------+
-| index | Town     | C        | Co       | Co       | Condo.Pe |
-|       |          | ommunity | ndo.2021 | ndo.2022 | rcChange |
-|       |          | Type     |          |          |          |
-+=======+==========+==========+==========+==========+==========+
-| 142   | Wi       | Maturing | 477000   | 635000   | -34      |
-|       | lmington | Suburbs  |          |          |          |
-+-------+----------+----------+----------+----------+----------+
-| 143   | Wi       | Maturing | 650000   | 765000   | 17.70%   |
-|       | nchester | Suburbs  |          |          |          |
-+-------+----------+----------+----------+----------+----------+
-| 144   | Winthrop | S        | 465000   | 505000   | 8.60%    |
-|       |          | treetcar |          |          |          |
-|       |          | Suburbs  |          |          |          |
-+-------+----------+----------+----------+----------+----------+
-| 145   | Woburn   | Regional | 480000   | 525000   | 9.40%    |
-|       |          | Urban    |          |          |          |
-|       |          | Centers  |          |          |          |
-+-------+----------+----------+----------+----------+----------+
-| 146   | Wrentham | De       | 413000   | 748372   | 81.20%   |
-|       |          | veloping |          |          |          |
-|       |          | Suburbs  |          |          |          |
-+-------+----------+----------+----------+----------+----------+
-
-‘Share of Owners Being Black or Latino’
-                                       
-
-+-----------------+-----------------+-----------------+-----------------+
-| index           | Municipality    | Community Type  | Percent of Home |
-|                 |                 |                 | Loans to Black  |
-|                 |                 |                 | and Latino      |
-|                 |                 |                 | Buyers          |
-+=================+=================+=================+=================+
-| 142             | Essex           | Developing      | 0.0%            |
-|                 |                 | Suburbs         |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| 143             | Dunstable       | Developing      | 2.0%            |
-|                 |                 | Suburbs         |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| 144             | Nahant          | Maturing        | 7.7%            |
-|                 |                 | Suburbs         |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| 145             | Ashby           | Rural Towns     | 12.0%           |
-+-----------------+-----------------+-----------------+-----------------+
-| 146             | Plympton        | Developing      | 6.1%            |
-|                 |                 | Suburbs         |                 |
-+-----------------+-----------------+-----------------+-----------------+
+-  Metro Core Communities (Inner Cities)
+-  Regional Urban Centers
+-  Street Car Suburbs
+-  Developing Suburbs
+-  Maturing Suburbs
+-  Rural Towns
 
 What we know so far
 -------------------
@@ -275,7 +96,7 @@ Overview of data by Community type for Single Family Homes
 |                 | Price, Jan -    | Price, Jan -    |                 |
 |                 | June 2021       | June 2022       |                 |
 +=================+=================+=================+=================+
-| count           | 7.0             | 7.0             | 7.0             |
+| count           | 7               | 7               | 7               |
 +-----------------+-----------------+-----------------+-----------------+
 | mean            | 1,135,660.71    | 1,399,028.57    | 20.75           |
 +-----------------+-----------------+-----------------+-----------------+
@@ -299,23 +120,21 @@ Overview of data by Community type for Single Family Homes
 |                 | Price, Jan -    | Price, Jan -    |                 |
 |                 | June 2021       | June 2022       |                 |
 +=================+=================+=================+=================+
-| count           | 17.0            | 17.0            | 17.0            |
+| count           | 17              | 17              | 17              |
 +-----------------+-----------------+-----------------+-----------------+
-| mean            | 52              | 56              | 9               |
-|                 | 0102.9411764706 | 7195.2352941176 | .46470588235294 |
+| mean            | 520102.95       | 567195.24       | 9.47            |
 +-----------------+-----------------+-----------------+-----------------+
-| std             | 10              | 103             | 4.              |
-|                 | 2287.4724590398 | 337.71569926043 | 586521173022996 |
+| std             | 102287.48       | 103337.72       | 4.59            |
 +-----------------+-----------------+-----------------+-----------------+
-| min             | 360000.0        | 413000.0        | -0.8            |
+| min             | 360000          | 413000          | -0.8            |
 +-----------------+-----------------+-----------------+-----------------+
-| 25%             | 445000.0        | 500000.0        | 5.8             |
+| 25%             | 445000          | 500000          | 5.8             |
 +-----------------+-----------------+-----------------+-----------------+
-| 50%             | 529000.0        | 590000.0        | 10.3            |
+| 50%             | 529000          | 590000          | 10.3            |
 +-----------------+-----------------+-----------------+-----------------+
-| 75%             | 600000.0        | 620000.0        | 13.3            |
+| 75%             | 600000          | 620000          | 13.3            |
 +-----------------+-----------------+-----------------+-----------------+
-| max             | 750000.0        | 815000.0        | 15.7            |
+| max             | 750000          | 815000          | 15.7            |
 +-----------------+-----------------+-----------------+-----------------+
 
 *StreetCar Suburbs*
@@ -325,23 +144,21 @@ Overview of data by Community type for Single Family Homes
 |                 | Price, Jan -    | Price, Jan -    |                 |
 |                 | June 2021       | June 2022       |                 |
 +=================+=================+=================+=================+
-| count           | 9.0             | 9.0             | 9.0             |
+| count           | 9               | 9               | 9               |
 +-----------------+-----------------+-----------------+-----------------+
-| mean            | 103             | 119             | 12.             |
-|                 | 9227.7777777778 | 8755.5555555555 | 988888888888889 |
+| mean            | 1039227.78      | 1198755.56      | 12.99           |
 +-----------------+-----------------+-----------------+-----------------+
-| std             | 439             | 61              | 10              |
-|                 | 110.73995570233 | 1463.4476219962 | .77548658349641 |
+| std             | 439110.74       | 611463.45       | 10.78           |
 +-----------------+-----------------+-----------------+-----------------+
-| min             | 629000.0        | 694900.0        | 1.6             |
+| min             | 629000          | 694900          | 1.6             |
 +-----------------+-----------------+-----------------+-----------------+
-| 25%             | 728050.0        | 802500.0        | 7.4             |
+| 25%             | 728050          | 802500          | 7.4             |
 +-----------------+-----------------+-----------------+-----------------+
-| 50%             | 790000.0        | 850000.0        | 9.7             |
+| 50%             | 790000          | 850000          | 9.7             |
 +-----------------+-----------------+-----------------+-----------------+
-| 75%             | 1441500.0       | 1575900.0       | 14.3            |
+| 75%             | 1441500         | 1575900         | 14.3            |
 +-----------------+-----------------+-----------------+-----------------+
-| max             | 1850000.0       | 2542000.0       | 37.4            |
+| max             | 1850000         | 2542000         | 37.4            |
 +-----------------+-----------------+-----------------+-----------------+
 
 *Developing Suburbs*
@@ -359,15 +176,15 @@ Overview of data by Community type for Single Family Homes
 | std             | 22              | 242             | 10.             |
 |                 | 5127.9869478949 | 892.57990436052 | 234316096424736 |
 +-----------------+-----------------+-----------------+-----------------+
-| min             | 347500.0        | 400000.0        | -21.2           |
+| min             | 347500          | 400000          | -21.2           |
 +-----------------+-----------------+-----------------+-----------------+
-| 25%             | 461000.0        | 517500.0        | 3.6             |
+| 25%             | 461000          | 517500          | 3.6             |
 +-----------------+-----------------+-----------------+-----------------+
-| 50%             | 583450.0        | 622500.0        | 9.5             |
+| 50%             | 583450          | 622500          | 9.5             |
 +-----------------+-----------------+-----------------+-----------------+
-| 75%             | 747500.0        | 764500.0        | 14.5            |
+| 75%             | 747500          | 764500          | 14.5            |
 +-----------------+-----------------+-----------------+-----------------+
-| max             | 1425000.0       | 1631500.0       | 33.5            |
+| max             | 1425000         | 1631500         | 33.5            |
 +-----------------+-----------------+-----------------+-----------------+
 
 *Rural Town*
@@ -377,7 +194,7 @@ Overview of data by Community type for Single Family Homes
 |                 | Price, Jan -    | Price, Jan -    |                 |
 |                 | June 2021       | June 2022       |                 |
 +=================+=================+=================+=================+
-| count           | 1.0             | 1.0             | 1.0             |
+| count           | 1               | 1               | 1               |
 +-----------------+-----------------+-----------------+-----------------+
 | mean            | 350000.0        | 370250.0        | 5.8             |
 +-----------------+-----------------+-----------------+-----------------+
@@ -398,10 +215,49 @@ Overview of data by Community type for Single Family Homes
 
    There is no table for Maturing Suburbs as there is no data for them
 
+.. _what-we-know-so-far-1:
+
+What we know so far
+===================
+
+Single Family Homes
+~~~~~~~~~~~~~~~~~~~
+
+Currently, from the data we can see the communities that experienced the
+overall greatest growth for single family homes have been,
+unsurprisingly from the Metro Core Communities. They experienced and
+mean growth in sales price of 20.76%. The best performing market out of
+all of these communities has been Somerville (*gang gang*), who
+experienced a 44% bump in median sales for single family homes between
+Jan-Jun 2021-2022.
+
+**The second best performing community type was the Street Car
+Suburbs.**
+
+This included Cities/Towns like:
+
+-  Brookline
+-  Arlington
+-  Medford
+-  Winthrop
+
+The top performing City was Brookline coming in at a strong 37.4%
+increase in sale price. Whereas Watertown, a City just 5 miles away,
+only experienced a 1.6% increase in sales prices. Interesting to see, to
+say the least.
+
+It is when we get to the Developing Suburbs that things get interesting
+as we see a lot of Towns experiencing a large negative drop in their
+sales for single family homes. Rockport, in particular, experienced a
+-21.2% drop in their single family home prices between 2021 and 2022.
+This may be attractive to buyers looking to move out to the burbs for
+some quiet and maybe larger property allocation compared to a city near
+Boston.
+
 .. raw:: html
 
-   <!--
-   citations go here
-   - https://www.tbf.org/news-and-insights/reports//2022/October/2022%20Greater%20Boston%20Housing%20Report%20Card/2022%20GBHRC%20Charts#single
-   _ 
-   -->
+   <!-- ![Sheet 1](https://user-images.githubusercontent.com/91287801/211865276-34263adc-f6b3-4c1f-9f2b-871a4813b18d.png) -->
+
+|Sheet 1(1)|
+
+.. |Sheet 1(1)| image:: https://user-images.githubusercontent.com/91287801/212280192-28ed6c94-0a9b-493a-ad0c-b66428962b10.png
