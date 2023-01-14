@@ -1,5 +1,8 @@
 # The State of housing in the Boston area
 
+![image](https://user-images.githubusercontent.com/91287801/212477320-4e8b030a-4651-4edc-b531-99f5a01e8b43.png)
+###### image credit [Dave Thompsen](https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/zakim-bridge-dave-thompsen.jpg)
+
 <!--
 Table of contents goes here
 -->
