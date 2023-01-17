@@ -1,4 +1,0 @@
-Overview on what is left to do:
-
-TABLEAU WORK FOR ALL DATA SETS!
-REDO README
