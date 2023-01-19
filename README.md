@@ -8,6 +8,10 @@
 <!--
 Table of contents goes here
 -->
+
+<!--
+TLDR
+-->
 ## Overview
 
 As we all know, the cost of living has gone up, substantially. Every sector has been affected on some level. Most notable (not because of value, more to do with the fact that we all need a roof over our heads) is the real estate sector.
