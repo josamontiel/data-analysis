@@ -1,0 +1,112 @@
+key_id,goal_id,tournament_id,tournament_name,match_id,match_name,match_date,stage_name,group_name,team_id,team_name,team_code,home_team,away_team,player_id,family_name,given_name,shirt_number,player_team_id,player_team_name,player_team_code,minute_label,minute_regulation,minute_stoppage,match_period,own_goal,penalty
+65,G-0065,WC-1930,1930 FIFA World Cup,M-1930-18,Uruguay v Argentina,7/30/1930,final,not applicable,T-81,Uruguay,URY,1,0,P-07505,Dorado,Pablo,0,T-81,Uruguay,URY,12',12,0,first half,0,0
+66,G-0066,WC-1930,1930 FIFA World Cup,M-1930-18,Uruguay v Argentina,7/30/1930,final,not applicable,T-03,Argentina,ARG,0,1,P-07580,Peucelle,Carlos,0,T-03,Argentina,ARG,20',20,0,first half,0,0
+67,G-0067,WC-1930,1930 FIFA World Cup,M-1930-18,Uruguay v Argentina,7/30/1930,final,not applicable,T-03,Argentina,ARG,0,1,P-01708,Stábile,Guillermo,0,T-03,Argentina,ARG,37',37,0,first half,0,0
+68,G-0068,WC-1930,1930 FIFA World Cup,M-1930-18,Uruguay v Argentina,7/30/1930,final,not applicable,T-81,Uruguay,URY,1,0,P-06624,Cea,Pedro,0,T-81,Uruguay,URY,57',57,0,second half,0,0
+69,G-0069,WC-1930,1930 FIFA World Cup,M-1930-18,Uruguay v Argentina,7/30/1930,final,not applicable,T-81,Uruguay,URY,1,0,P-03110,Iriarte,Santos,0,T-81,Uruguay,URY,68',68,0,second half,0,0
+70,G-0070,WC-1930,1930 FIFA World Cup,M-1930-18,Uruguay v Argentina,7/30/1930,final,not applicable,T-81,Uruguay,URY,1,0,P-04699,Castro,Héctor,0,T-81,Uruguay,URY,89',89,0,second half,0,0
+138,G-0138,WC-1934,1934 FIFA World Cup,M-1934-17,Italy v Czechoslovakia,6/10/1934,final,not applicable,T-20,Czechoslovakia,CSK,0,1,P-09763,Pu?,Antonín,0,T-20,Czechoslovakia,CSK,71',71,0,second half,0,0
+139,G-0139,WC-1934,1934 FIFA World Cup,M-1934-17,Italy v Czechoslovakia,6/10/1934,final,not applicable,T-39,Italy,ITA,1,0,P-04792,Orsi,Raimundo,0,T-39,Italy,ITA,81',81,0,second half,0,0
+140,G-0140,WC-1934,1934 FIFA World Cup,M-1934-17,Italy v Czechoslovakia,6/10/1934,final,not applicable,T-39,Italy,ITA,1,0,P-07470,Schiavio,Angelo,0,T-39,Italy,ITA,95',95,0,"extra time, first half",0,0
+219,G-0219,WC-1938,1938 FIFA World Cup,M-1938-18,Italy v Hungary,6/19/1938,final,not applicable,T-39,Italy,ITA,1,0,P-02808,Colaussi,Gino,0,T-39,Italy,ITA,6',6,0,first half,0,0
+220,G-0220,WC-1938,1938 FIFA World Cup,M-1938-18,Italy v Hungary,6/19/1938,final,not applicable,T-34,Hungary,HUN,0,1,P-04518,Titkos,Pál,0,T-34,Hungary,HUN,8',8,0,first half,0,0
+221,G-0221,WC-1938,1938 FIFA World Cup,M-1938-18,Italy v Hungary,6/19/1938,final,not applicable,T-39,Italy,ITA,1,0,P-01559,Piola,Silvio,0,T-39,Italy,ITA,16',16,0,first half,0,0
+222,G-0222,WC-1938,1938 FIFA World Cup,M-1938-18,Italy v Hungary,6/19/1938,final,not applicable,T-39,Italy,ITA,1,0,P-02808,Colaussi,Gino,0,T-39,Italy,ITA,35',35,0,first half,0,0
+223,G-0223,WC-1938,1938 FIFA World Cup,M-1938-18,Italy v Hungary,6/19/1938,final,not applicable,T-34,Hungary,HUN,0,1,P-06711,Sárosi,György,0,T-34,Hungary,HUN,70',70,0,second half,0,0
+224,G-0224,WC-1938,1938 FIFA World Cup,M-1938-18,Italy v Hungary,6/19/1938,final,not applicable,T-39,Italy,ITA,1,0,P-01559,Piola,Silvio,0,T-39,Italy,ITA,82',82,0,second half,0,0
+282,G-0282,WC-1950,1950 FIFA World Cup,M-1950-17,Brazil v Sweden,7/9/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03149,Ademir,not applicable,0,T-09,Brazil,BRA,17',17,0,first half,0,0
+283,G-0283,WC-1950,1950 FIFA World Cup,M-1950-17,Brazil v Sweden,7/9/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03149,Ademir,not applicable,0,T-09,Brazil,BRA,36',36,0,first half,0,0
+284,G-0284,WC-1950,1950 FIFA World Cup,M-1950-17,Brazil v Sweden,7/9/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03960,Chico,not applicable,0,T-09,Brazil,BRA,39',39,0,first half,0,0
+285,G-0285,WC-1950,1950 FIFA World Cup,M-1950-17,Brazil v Sweden,7/9/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03149,Ademir,not applicable,0,T-09,Brazil,BRA,52',52,0,second half,0,0
+286,G-0286,WC-1950,1950 FIFA World Cup,M-1950-17,Brazil v Sweden,7/9/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03149,Ademir,not applicable,0,T-09,Brazil,BRA,58',58,0,second half,0,0
+287,G-0287,WC-1950,1950 FIFA World Cup,M-1950-17,Brazil v Sweden,7/9/1950,final round,not applicable,T-72,Sweden,SWE,0,1,P-08064,Andersson,Sune,0,T-72,Sweden,SWE,67',67,0,second half,0,1
+288,G-0288,WC-1950,1950 FIFA World Cup,M-1950-17,Brazil v Sweden,7/9/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-04233,Maneca,not applicable,0,T-09,Brazil,BRA,85',85,0,second half,0,0
+289,G-0289,WC-1950,1950 FIFA World Cup,M-1950-17,Brazil v Sweden,7/9/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03960,Chico,not applicable,0,T-09,Brazil,BRA,88',88,0,second half,0,0
+290,G-0290,WC-1950,1950 FIFA World Cup,M-1950-18,Uruguay v Spain,7/9/1950,final round,not applicable,T-81,Uruguay,URY,1,0,P-09441,Ghiggia,Alcides,0,T-81,Uruguay,URY,29',29,0,first half,0,0
+291,G-0291,WC-1950,1950 FIFA World Cup,M-1950-18,Uruguay v Spain,7/9/1950,final round,not applicable,T-71,Spain,ESP,0,1,P-05910,Basora,Estanislau,0,T-71,Spain,ESP,37',37,0,first half,0,0
+292,G-0292,WC-1950,1950 FIFA World Cup,M-1950-18,Uruguay v Spain,7/9/1950,final round,not applicable,T-71,Spain,ESP,0,1,P-05910,Basora,Estanislau,0,T-71,Spain,ESP,39',39,0,first half,0,0
+293,G-0293,WC-1950,1950 FIFA World Cup,M-1950-18,Uruguay v Spain,7/9/1950,final round,not applicable,T-81,Uruguay,URY,1,0,P-05562,Varela,Obdulio,0,T-81,Uruguay,URY,73',73,0,second half,0,0
+294,G-0294,WC-1950,1950 FIFA World Cup,M-1950-19,Brazil v Spain,7/13/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03149,Ademir,not applicable,0,T-09,Brazil,BRA,15',15,0,first half,0,0
+295,G-0295,WC-1950,1950 FIFA World Cup,M-1950-19,Brazil v Spain,7/13/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-08717,Jair,not applicable,0,T-09,Brazil,BRA,21',21,0,first half,0,0
+296,G-0296,WC-1950,1950 FIFA World Cup,M-1950-19,Brazil v Spain,7/13/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03960,Chico,not applicable,0,T-09,Brazil,BRA,31',31,0,first half,0,0
+297,G-0297,WC-1950,1950 FIFA World Cup,M-1950-19,Brazil v Spain,7/13/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03960,Chico,not applicable,0,T-09,Brazil,BRA,55',55,0,second half,0,0
+298,G-0298,WC-1950,1950 FIFA World Cup,M-1950-19,Brazil v Spain,7/13/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-03149,Ademir,not applicable,0,T-09,Brazil,BRA,57',57,0,second half,0,0
+299,G-0299,WC-1950,1950 FIFA World Cup,M-1950-19,Brazil v Spain,7/13/1950,final round,not applicable,T-09,Brazil,BRA,1,0,P-02593,Zizinho,not applicable,0,T-09,Brazil,BRA,67',67,0,second half,0,0
+300,G-0300,WC-1950,1950 FIFA World Cup,M-1950-19,Brazil v Spain,7/13/1950,final round,not applicable,T-71,Spain,ESP,0,1,P-04220,Igoa,Silvestre,0,T-71,Spain,ESP,71',71,0,second half,0,0
+301,G-0301,WC-1950,1950 FIFA World Cup,M-1950-20,Uruguay v Sweden,7/13/1950,final round,not applicable,T-72,Sweden,SWE,0,1,P-03589,Palmér,Karl-Erik,0,T-72,Sweden,SWE,5',5,0,first half,0,0
+302,G-0302,WC-1950,1950 FIFA World Cup,M-1950-20,Uruguay v Sweden,7/13/1950,final round,not applicable,T-81,Uruguay,URY,1,0,P-09441,Ghiggia,Alcides,0,T-81,Uruguay,URY,39',39,0,first half,0,0
+303,G-0303,WC-1950,1950 FIFA World Cup,M-1950-20,Uruguay v Sweden,7/13/1950,final round,not applicable,T-72,Sweden,SWE,0,1,P-05021,Sundqvist,Stig,0,T-72,Sweden,SWE,40',40,0,first half,0,0
+304,G-0304,WC-1950,1950 FIFA World Cup,M-1950-20,Uruguay v Sweden,7/13/1950,final round,not applicable,T-81,Uruguay,URY,1,0,P-01364,Míguez,Oscar,0,T-81,Uruguay,URY,77',77,0,second half,0,0
+305,G-0305,WC-1950,1950 FIFA World Cup,M-1950-20,Uruguay v Sweden,7/13/1950,final round,not applicable,T-81,Uruguay,URY,1,0,P-01364,Míguez,Oscar,0,T-81,Uruguay,URY,85',85,0,second half,0,0
+306,G-0306,WC-1950,1950 FIFA World Cup,M-1950-21,Sweden v Spain,7/16/1950,final round,not applicable,T-72,Sweden,SWE,1,0,P-05021,Sundqvist,Stig,0,T-72,Sweden,SWE,15',15,0,first half,0,0
+307,G-0307,WC-1950,1950 FIFA World Cup,M-1950-21,Sweden v Spain,7/16/1950,final round,not applicable,T-72,Sweden,SWE,1,0,P-03754,Mellberg,Bror,0,T-72,Sweden,SWE,33',33,0,first half,0,0
+308,G-0308,WC-1950,1950 FIFA World Cup,M-1950-21,Sweden v Spain,7/16/1950,final round,not applicable,T-72,Sweden,SWE,1,0,P-03589,Palmér,Karl-Erik,0,T-72,Sweden,SWE,80',80,0,second half,0,0
+309,G-0309,WC-1950,1950 FIFA World Cup,M-1950-21,Sweden v Spain,7/16/1950,final round,not applicable,T-71,Spain,ESP,0,1,P-02813,Zarra,Telmo,0,T-71,Spain,ESP,82',82,0,second half,0,0
+310,G-0310,WC-1950,1950 FIFA World Cup,M-1950-22,Uruguay v Brazil,7/16/1950,final round,not applicable,T-09,Brazil,BRA,0,1,P-05293,Friaça,not applicable,0,T-09,Brazil,BRA,47',47,0,second half,0,0
+311,G-0311,WC-1950,1950 FIFA World Cup,M-1950-22,Uruguay v Brazil,7/16/1950,final round,not applicable,T-81,Uruguay,URY,1,0,P-01903,Schiaffino,Juan Alberto,0,T-81,Uruguay,URY,66',66,0,second half,0,0
+312,G-0312,WC-1950,1950 FIFA World Cup,M-1950-22,Uruguay v Brazil,7/16/1950,final round,not applicable,T-81,Uruguay,URY,1,0,P-09441,Ghiggia,Alcides,0,T-81,Uruguay,URY,79',79,0,second half,0,0
+448,G-0448,WC-1954,1954 FIFA World Cup,M-1954-26,West Germany v Hungary,7/4/1954,final,not applicable,T-34,Hungary,HUN,0,1,P-01259,Puskás,Ferenc,0,T-34,Hungary,HUN,6',6,0,first half,0,0
+449,G-0449,WC-1954,1954 FIFA World Cup,M-1954-26,West Germany v Hungary,7/4/1954,final,not applicable,T-34,Hungary,HUN,0,1,P-08206,Czibor,Zoltán,0,T-34,Hungary,HUN,8',8,0,first half,0,0
+450,G-0450,WC-1954,1954 FIFA World Cup,M-1954-26,West Germany v Hungary,7/4/1954,final,not applicable,T-83,West Germany,DEU,1,0,P-08055,Morlock,Max,0,T-83,West Germany,DEU,10',10,0,first half,0,0
+451,G-0451,WC-1954,1954 FIFA World Cup,M-1954-26,West Germany v Hungary,7/4/1954,final,not applicable,T-83,West Germany,DEU,1,0,P-00174,Rahn,Helmut,0,T-83,West Germany,DEU,18',18,0,first half,0,0
+452,G-0452,WC-1954,1954 FIFA World Cup,M-1954-26,West Germany v Hungary,7/4/1954,final,not applicable,T-83,West Germany,DEU,1,0,P-00174,Rahn,Helmut,0,T-83,West Germany,DEU,84',84,0,second half,0,0
+572,G-0572,WC-1958,1958 FIFA World Cup,M-1958-35,Brazil v Sweden,6/29/1958,final,not applicable,T-72,Sweden,SWE,0,1,P-03179,Liedholm,Nils,0,T-72,Sweden,SWE,4',4,0,first half,0,0
+573,G-0573,WC-1958,1958 FIFA World Cup,M-1958-35,Brazil v Sweden,6/29/1958,final,not applicable,T-09,Brazil,BRA,1,0,P-01848,Vavá,not applicable,0,T-09,Brazil,BRA,9',9,0,first half,0,0
+574,G-0574,WC-1958,1958 FIFA World Cup,M-1958-35,Brazil v Sweden,6/29/1958,final,not applicable,T-09,Brazil,BRA,1,0,P-01848,Vavá,not applicable,0,T-09,Brazil,BRA,32',32,0,first half,0,0
+575,G-0575,WC-1958,1958 FIFA World Cup,M-1958-35,Brazil v Sweden,6/29/1958,final,not applicable,T-09,Brazil,BRA,1,0,P-09516,Pelé,not applicable,0,T-09,Brazil,BRA,55',55,0,second half,0,0
+576,G-0576,WC-1958,1958 FIFA World Cup,M-1958-35,Brazil v Sweden,6/29/1958,final,not applicable,T-09,Brazil,BRA,1,0,P-00712,Zagallo,Mário,0,T-09,Brazil,BRA,68',68,0,second half,0,0
+577,G-0577,WC-1958,1958 FIFA World Cup,M-1958-35,Brazil v Sweden,6/29/1958,final,not applicable,T-72,Sweden,SWE,0,1,P-07592,Simonsson,Agne,0,T-72,Sweden,SWE,80',80,0,second half,0,0
+578,G-0578,WC-1958,1958 FIFA World Cup,M-1958-35,Brazil v Sweden,6/29/1958,final,not applicable,T-09,Brazil,BRA,1,0,P-09516,Pelé,not applicable,0,T-09,Brazil,BRA,90',90,0,second half,0,0
+664,G-0664,WC-1962,1962 FIFA World Cup,M-1962-32,Brazil v Czechoslovakia,6/17/1962,final,not applicable,T-20,Czechoslovakia,CSK,0,1,P-08855,Masopust,Josef,0,T-20,Czechoslovakia,CSK,15',15,0,first half,0,0
+665,G-0665,WC-1962,1962 FIFA World Cup,M-1962-32,Brazil v Czechoslovakia,6/17/1962,final,not applicable,T-09,Brazil,BRA,1,0,P-07480,Amarildo,not applicable,0,T-09,Brazil,BRA,17',17,0,first half,0,0
+666,G-0666,WC-1962,1962 FIFA World Cup,M-1962-32,Brazil v Czechoslovakia,6/17/1962,final,not applicable,T-09,Brazil,BRA,1,0,P-09928,Zito,not applicable,0,T-09,Brazil,BRA,69',69,0,second half,0,0
+667,G-0667,WC-1962,1962 FIFA World Cup,M-1962-32,Brazil v Czechoslovakia,6/17/1962,final,not applicable,T-09,Brazil,BRA,1,0,P-01848,Vavá,not applicable,0,T-09,Brazil,BRA,78',78,0,second half,0,0
+751,G-0751,WC-1966,1966 FIFA World Cup,M-1966-32,England v West Germany,7/30/1966,final,not applicable,T-83,West Germany,DEU,0,1,P-08217,Haller,Helmut,0,T-83,West Germany,DEU,12',12,0,first half,0,0
+752,G-0752,WC-1966,1966 FIFA World Cup,M-1966-32,England v West Germany,7/30/1966,final,not applicable,T-27,England,ENG,1,0,P-04680,Hurst,Geoff,0,T-27,England,ENG,18',18,0,first half,0,0
+753,G-0753,WC-1966,1966 FIFA World Cup,M-1966-32,England v West Germany,7/30/1966,final,not applicable,T-27,England,ENG,1,0,P-00965,Peters,Martin,0,T-27,England,ENG,78',78,0,second half,0,0
+754,G-0754,WC-1966,1966 FIFA World Cup,M-1966-32,England v West Germany,7/30/1966,final,not applicable,T-83,West Germany,DEU,0,1,P-07142,Weber,Wolfgang,0,T-83,West Germany,DEU,89',89,0,second half,0,0
+755,G-0755,WC-1966,1966 FIFA World Cup,M-1966-32,England v West Germany,7/30/1966,final,not applicable,T-27,England,ENG,1,0,P-04680,Hurst,Geoff,0,T-27,England,ENG,101',101,0,"extra time, first half",0,0
+756,G-0756,WC-1966,1966 FIFA World Cup,M-1966-32,England v West Germany,7/30/1966,final,not applicable,T-27,England,ENG,1,0,P-04680,Hurst,Geoff,0,T-27,England,ENG,120',120,0,"extra time, second half",0,0
+847,G-0847,WC-1970,1970 FIFA World Cup,M-1970-32,Brazil v Italy,6/21/1970,final,not applicable,T-09,Brazil,BRA,1,0,P-09516,Pelé,not applicable,10,T-09,Brazil,BRA,18',18,0,first half,0,0
+848,G-0848,WC-1970,1970 FIFA World Cup,M-1970-32,Brazil v Italy,6/21/1970,final,not applicable,T-39,Italy,ITA,0,1,P-02561,Boninsegna,Roberto,20,T-39,Italy,ITA,37',37,0,first half,0,0
+849,G-0849,WC-1970,1970 FIFA World Cup,M-1970-32,Brazil v Italy,6/21/1970,final,not applicable,T-09,Brazil,BRA,1,0,P-06926,Gérson,not applicable,8,T-09,Brazil,BRA,66',66,0,second half,0,0
+850,G-0850,WC-1970,1970 FIFA World Cup,M-1970-32,Brazil v Italy,6/21/1970,final,not applicable,T-09,Brazil,BRA,1,0,P-02071,Jairzinho,not applicable,7,T-09,Brazil,BRA,71',71,0,second half,0,0
+851,G-0851,WC-1970,1970 FIFA World Cup,M-1970-32,Brazil v Italy,6/21/1970,final,not applicable,T-09,Brazil,BRA,1,0,P-04742,Alberto,Carlos,4,T-09,Brazil,BRA,86',86,0,second half,0,0
+946,G-0946,WC-1974,1974 FIFA World Cup,M-1974-38,Netherlands v West Germany,7/7/1974,final,not applicable,T-46,Netherlands,NLD,1,0,P-01377,Neeskens,Johan,13,T-46,Netherlands,NLD,2',2,0,first half,0,1
+947,G-0947,WC-1974,1974 FIFA World Cup,M-1974-38,Netherlands v West Germany,7/7/1974,final,not applicable,T-83,West Germany,DEU,0,1,P-02579,Breitner,Paul,3,T-83,West Germany,DEU,25',25,0,first half,0,1
+948,G-0948,WC-1974,1974 FIFA World Cup,M-1974-38,Netherlands v West Germany,7/7/1974,final,not applicable,T-83,West Germany,DEU,0,1,P-02173,Müller,Gerd,13,T-83,West Germany,DEU,43',43,0,first half,0,0
+1047,G-1047,WC-1978,1978 FIFA World Cup,M-1978-38,Argentina v Netherlands,6/25/1978,final,not applicable,T-03,Argentina,ARG,1,0,P-01718,Kempes,Mario,10,T-03,Argentina,ARG,38',38,0,first half,0,0
+1048,G-1048,WC-1978,1978 FIFA World Cup,M-1978-38,Argentina v Netherlands,6/25/1978,final,not applicable,T-46,Netherlands,NLD,0,1,P-00508,Nanninga,Dick,18,T-46,Netherlands,NLD,82',82,0,second half,0,0
+1049,G-1049,WC-1978,1978 FIFA World Cup,M-1978-38,Argentina v Netherlands,6/25/1978,final,not applicable,T-03,Argentina,ARG,1,0,P-01718,Kempes,Mario,10,T-03,Argentina,ARG,105',105,0,"extra time, first half",0,0
+1050,G-1050,WC-1978,1978 FIFA World Cup,M-1978-38,Argentina v Netherlands,6/25/1978,final,not applicable,T-03,Argentina,ARG,1,0,P-01875,Bertoni,Daniel,4,T-03,Argentina,ARG,115',115,0,"extra time, second half",0,0
+1193,G-1193,WC-1982,1982 FIFA World Cup,M-1982-52,Italy v West Germany,7/11/1982,final,not applicable,T-39,Italy,ITA,1,0,P-00907,Rossi,Paolo,20,T-39,Italy,ITA,57',57,0,second half,0,0
+1194,G-1194,WC-1982,1982 FIFA World Cup,M-1982-52,Italy v West Germany,7/11/1982,final,not applicable,T-39,Italy,ITA,1,0,P-07826,Tardelli,Marco,14,T-39,Italy,ITA,69',69,0,second half,0,0
+1195,G-1195,WC-1982,1982 FIFA World Cup,M-1982-52,Italy v West Germany,7/11/1982,final,not applicable,T-39,Italy,ITA,1,0,P-04832,Altobelli,Alessandro,18,T-39,Italy,ITA,81',81,0,second half,0,0
+1196,G-1196,WC-1982,1982 FIFA World Cup,M-1982-52,Italy v West Germany,7/11/1982,final,not applicable,T-83,West Germany,DEU,0,1,P-02579,Breitner,Paul,3,T-83,West Germany,DEU,83',83,0,second half,0,0
+1324,G-1324,WC-1986,1986 FIFA World Cup,M-1986-52,Argentina v West Germany,6/29/1986,final,not applicable,T-03,Argentina,ARG,1,0,P-00625,Brown,José Luis,5,T-03,Argentina,ARG,23',23,0,first half,0,0
+1325,G-1325,WC-1986,1986 FIFA World Cup,M-1986-52,Argentina v West Germany,6/29/1986,final,not applicable,T-03,Argentina,ARG,1,0,P-05866,Valdano,Jorge,11,T-03,Argentina,ARG,56',56,0,second half,0,0
+1326,G-1326,WC-1986,1986 FIFA World Cup,M-1986-52,Argentina v West Germany,6/29/1986,final,not applicable,T-83,West Germany,DEU,0,1,P-05861,Rummenigge,Karl-Heinz,11,T-83,West Germany,DEU,74',74,0,second half,0,0
+1327,G-1327,WC-1986,1986 FIFA World Cup,M-1986-52,Argentina v West Germany,6/29/1986,final,not applicable,T-83,West Germany,DEU,0,1,P-02452,Völler,Rudi,9,T-83,West Germany,DEU,81',81,0,second half,0,0
+1328,G-1328,WC-1986,1986 FIFA World Cup,M-1986-52,Argentina v West Germany,6/29/1986,final,not applicable,T-03,Argentina,ARG,1,0,P-02448,Burruchaga,Jorge,7,T-03,Argentina,ARG,84',84,0,second half,0,0
+1443,G-1443,WC-1990,1990 FIFA World Cup,M-1990-52,West Germany v Argentina,7/8/1990,final,not applicable,T-83,West Germany,DEU,1,0,P-00830,Brehme,Andreas,3,T-83,West Germany,DEU,85',85,0,second half,0,1
+1753,G-1753,WC-1998,1998 FIFA World Cup,M-1998-64,Brazil v France,7/12/1998,final,not applicable,T-28,France,FRA,0,1,P-03294,Zidane,Zinedine,10,T-28,France,FRA,27',27,0,first half,0,0
+1754,G-1754,WC-1998,1998 FIFA World Cup,M-1998-64,Brazil v France,7/12/1998,final,not applicable,T-28,France,FRA,0,1,P-03294,Zidane,Zinedine,10,T-28,France,FRA,45'+1',45,1,"first half, stoppage time",0,0
+1755,G-1755,WC-1998,1998 FIFA World Cup,M-1998-64,Brazil v France,7/12/1998,final,not applicable,T-28,France,FRA,0,1,P-05544,Petit,Emmanuel,17,T-28,France,FRA,90'+3',90,3,"second half, stoppage time",0,0
+1915,G-1915,WC-2002,2002 FIFA World Cup,M-2002-64,Germany v Brazil,6/30/2002,final,not applicable,T-09,Brazil,BRA,0,1,P-08490,Ronaldo,not applicable,9,T-09,Brazil,BRA,67',67,0,second half,0,0
+1916,G-1916,WC-2002,2002 FIFA World Cup,M-2002-64,Germany v Brazil,6/30/2002,final,not applicable,T-09,Brazil,BRA,0,1,P-08490,Ronaldo,not applicable,9,T-09,Brazil,BRA,79',79,0,second half,0,0
+2062,G-2062,WC-2006,2006 FIFA World Cup,M-2006-64,Italy v France,7/9/2006,final,not applicable,T-28,France,FRA,0,1,P-03294,Zidane,Zinedine,10,T-28,France,FRA,7',7,0,first half,0,1
+2063,G-2063,WC-2006,2006 FIFA World Cup,M-2006-64,Italy v France,7/9/2006,final,not applicable,T-39,Italy,ITA,1,0,P-08313,Materazzi,Marco,23,T-39,Italy,ITA,19',19,0,first half,0,0
+2208,G-2208,WC-2010,2010 FIFA World Cup,M-2010-64,Netherlands v Spain,7/11/2010,final,not applicable,T-71,Spain,ESP,0,1,P-02250,Iniesta,Andrés,6,T-71,Spain,ESP,116',116,0,"extra time, second half",0,0
+2379,G-2379,WC-2014,2014 FIFA World Cup,M-2014-64,Germany v Argentina,7/13/2014,final,not applicable,T-29,Germany,DEU,1,0,P-01343,Götze,Mario,19,T-29,Germany,DEU,113',113,0,"extra time, second half",0,0
+2543,G-2543,WC-2018,2018 FIFA World Cup,M-2018-64,France v Croatia,7/15/2018,final,not applicable,T-28,France,FRA,1,0,P-00308,Mandžuki?,Mario,17,T-17,Croatia,HRV,18',18,0,first half,1,0
+2544,G-2544,WC-2018,2018 FIFA World Cup,M-2018-64,France v Croatia,7/15/2018,final,not applicable,T-17,Croatia,HRV,0,1,P-09296,Periši?,Ivan,4,T-17,Croatia,HRV,28',28,0,first half,0,0
+2545,G-2545,WC-2018,2018 FIFA World Cup,M-2018-64,France v Croatia,7/15/2018,final,not applicable,T-28,France,FRA,1,0,P-07450,Griezmann,Antoine,7,T-28,France,FRA,38',38,0,first half,0,1
+2546,G-2546,WC-2018,2018 FIFA World Cup,M-2018-64,France v Croatia,7/15/2018,final,not applicable,T-28,France,FRA,1,0,P-06623,Pogba,Paul,6,T-28,France,FRA,59',59,0,second half,0,0
+2547,G-2547,WC-2018,2018 FIFA World Cup,M-2018-64,France v Croatia,7/15/2018,final,not applicable,T-28,France,FRA,1,0,P-06978,Mbappé,Kylian,10,T-28,France,FRA,65',65,0,second half,0,0
+2548,G-2548,WC-2018,2018 FIFA World Cup,M-2018-64,France v Croatia,7/15/2018,final,not applicable,T-17,Croatia,HRV,0,1,P-00308,Mandžuki?,Mario,17,T-17,Croatia,HRV,69',69,0,second half,0,0
+2715,G-2715,WC-2022,2022 FIFA World Cup,M-2022-64,Argentina v France,12/18/2022,final,not applicable,T-03,Argentina,ARG,1,0,P-03429,Messi,Lionel,10,T-03,Argentina,ARG,23',23,0,first half,0,1
+2716,G-2716,WC-2022,2022 FIFA World Cup,M-2022-64,Argentina v France,12/18/2022,final,not applicable,T-03,Argentina,ARG,1,0,P-03153,Di María,Ángel,11,T-03,Argentina,ARG,36',36,0,first half,0,0
+2717,G-2717,WC-2022,2022 FIFA World Cup,M-2022-64,Argentina v France,12/18/2022,final,not applicable,T-28,France,FRA,0,1,P-06978,Mbappé,Kylian,10,T-28,France,FRA,80',80,0,second half,0,1
+2718,G-2718,WC-2022,2022 FIFA World Cup,M-2022-64,Argentina v France,12/18/2022,final,not applicable,T-28,France,FRA,0,1,P-06978,Mbappé,Kylian,10,T-28,France,FRA,81',81,0,second half,0,0
+2719,G-2719,WC-2022,2022 FIFA World Cup,M-2022-64,Argentina v France,12/18/2022,final,not applicable,T-03,Argentina,ARG,1,0,P-03429,Messi,Lionel,10,T-03,Argentina,ARG,108',108,0,"extra time, second half",0,0
+2720,G-2720,WC-2022,2022 FIFA World Cup,M-2022-64,Argentina v France,12/18/2022,final,not applicable,T-28,France,FRA,0,1,P-06978,Mbappé,Kylian,10,T-28,France,FRA,118',118,0,"extra time, second half",0,1
